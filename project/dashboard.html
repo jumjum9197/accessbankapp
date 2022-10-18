@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./asset/style/main.css">
+
+</head>
+<body>
+    <main class="container-fluid">
+        <div class="row mt-3 mx-auto" >
+            <div class="macol">
+
+            </div>
+          
+            <div class=" col1 col-sm-3  col-md-3 col-xxl-3 col-xl-3 col-xs-12 col-lg-3">
+                <div class="circle">
+                    <img class="circle" src="./asset/script/section3.jpg" width="300px" height="400px" alt="">
+
+                </div>
+                <div id="username" class="myusername"> 
+                   
+                </div>
+                <div class="logout btn" id="logout">
+                    logout
+
+                </div>
+             
+
+            </div>
+            <div class=" col-5 col2 col-sm-5  col-md-5 col-xxl-5 col-xl-5 col-xs-5 col-lg-5">
+            
+             
+
+                <div class="card carrds">
+                    <p class="cure ">current Balance</p> 
+                    
+                        <p class=" bal" id="depositbalance"></p> 
+                        <!-- <span class="atm" id="balatm">*****765</span>  -->
+                </div>
+                
+                    
+                        
+              
+           
+                
+        
+                    
+                    
+
+               
+                
+
+            </div>
+            <div class="col-3 col1 col-sm-3  col-md-3 col-xxl-3 col-xl-3 col-xs-3 col-lg-3">
+                <div class="card carrd">
+                    <div>
+                      
+                        <button type="button" class="btn btn-primary mybtn" data-bs-toggle="modal"
+                         data-bs-target="#exampleModal" data-bs-whatever="@mdo">Deposit</button>
+                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Deposit slip </h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="mb-3">
+                                      <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                      <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="message-text" class="col-form-label">Amount:</label>
+                                      <input type="number" max="100000" class="form-control" placeholder="Enter amount to deposit" id="myDeposit">
+
+                                      <!-- <textarea class="form-control" id="D-Amount"></textarea> -->
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button"  data-bs-dismiss="modal" id="addMoney" class="btn btn-primary">Send</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+                    <div>
+                        <!-- <button class="btn mybtn" id="depositbutton">dkdd</button> -->
+
+                        <button type="button" class="btn btn-primary mybtn" data-bs-toggle="modal"
+                         data-bs-target="#exampleModals" data-bs-whatever="@mdo">Withdraw</button>
+                         <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Deposit slip </h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <form>
+                                    <div class="mb-3">
+                                      <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                      <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="message-text" class="col-form-label">Amount:</label>
+                                      <input type="number" max="100000" class="form-control" placeholder="Enter amount to withdraw" id="mywithdraw">
+
+                                      <!-- <textarea class="form-control" id="D-Amount"></textarea> -->
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button"  data-bs-dismiss="modal" id="removeMoney" class="btn btn-primary">Send</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+   <script src="./asset/script/main.js"></script>
+   <script src="./asset/script/deposit.js"></script>
+
+   <script src="./asset/script/depositme.js"></script>
+   <script src="./asset/script/withdraw.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,653 @@
+
+@media(min-width:20px) and (max-width:480px){
+    .logform{
+        border: 3px solid aliceblue; 
+        background-color: aliceblue;
+        width: 80% !important;
+        
+      
+      }
+      .regform{
+        border: 3px solid aliceblue; 
+        background-color: aliceblue;
+        width: 80% !important;
+        
+      
+      }
+      .sbody{
+      background-image: linear-gradient(to right,skyblue,rgb(174, 174, 216));}
+      .textstyle{
+          color: blue;
+          font-size: 15px;
+      }
+      .subbtn{
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom:25px ;
+          width: 100px;
+          color: white;
+      }
+      .logbtn {
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom: 25px;
+          width: 100px;
+          color: white;
+        }
+      .subbtn:hover{
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom:25px ;
+          width: 400px;
+          color: white;
+      }
+      /* registration */
+      .textstyle{
+          color: blue;
+          font-size:23px;
+      }
+      .cus-det{
+          padding-left: 309px;
+          font-weight: bold;
+      }
+      .names{
+          margin-left: 340px; 
+          
+      }
+      .vinput{
+          width: 93%;
+      }
+      .mar{
+          margin-bottom: 100px;
+      }
+      .col1 {
+        background-color: blue;
+        border: 1px solid blue;
+   
+        width: 100% !important;
+      }
+      .col2{
+          background-color:white  ;
+          border: 1px solid white;
+          height: 198px;
+          width: 100%!important;
+      }
+      .circle {
+        height: 113px;
+        width: 92px;
+        border-radius: 50%;
+        margin-top: 43px;
+        margin-left: 23%;
+      }
+      .carrd{
+          background-color: white;
+          height: 380px;
+          margin-top: 50px;
+          border-radius: 20px;
+      }
+      .carrds{
+          background-color: aliceblue;
+      height: 137px;
+      margin-top: 22px;
+      border-radius: 20px;
+      width: 90%;
+      margin-left: 4%;
+      }
+      .mybtn
+      {
+          width: 60%;
+      height: 100px;
+      margin-left: 18%;
+      margin-top: 59px;
+      border-radius: 20px;
+      background-color: blue;
+      transition: all 0.3s ease-in;
+      }
+      .mybtn:hover
+      {
+          width: 30%;
+      height: 100px;
+      margin-left: 18%;
+      margin-top: 59px;
+      border-radius: 20px;
+      background-color: rgb(215, 215, 226);
+      }
+      .macol{
+          width: 4.5%;
+      }
+      .cure{
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 20px;
+          color: #dfd8d8;
+        
+      }
+      .bal{
+        font-size: 30px;
+        margin-top: -63px;
+        padding: 54px;
+      }
+      .mst{
+          margin-bottom: 40px;
+      }
+      .atm {
+          margin-top: -78px;
+          margin-left: 299px;
+        }
+        .rowcol{
+          background-color: rgb(229, 229, 236);
+        }
+        .dc{
+          
+              height: 29px;
+              width: 54px;
+              border-radius: 47%;
+              background-color: red;
+              border: 1px solid red;
+       }
+      .dd{
+          height: 29px;
+          width: 54px;
+          border-radius: 47%;
+          background-color: green;
+          border: 1px solid green;
+      
+                
+      }
+}
+
+@media(min-width:481px) and (max-width:767px){
+    .logform{
+        border: 3px solid aliceblue; 
+        background-color: aliceblue;
+        width: 60% !important;
+        
+      
+    }
+      .regform{
+        border: 3px solid aliceblue; 
+        background-color: aliceblue;
+        width: 80% !important;
+        
+      
+      }
+      
+      .sbody{
+      background-image: linear-gradient(to right,skyblue,rgb(174, 174, 216));}
+      .textstyle{
+          color: blue;
+          font-size: 15px;
+      }
+      .subbtn{
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom:25px ;
+          width: 200px;
+          color: white;
+      }
+      .logbtn {
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom: 25px;
+          width: 200px;
+          color: white;
+        }
+      .subbtn:hover{
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom:25px ;
+          width: 400px;
+          color: white;
+      }
+      /* registration */
+      .textstyle{
+          color: blue;
+          font-size:23px;
+      }
+      .cus-det{
+          padding-left: 309px;
+          font-weight: bold;
+      }
+      .names{
+          margin-left: 340px; 
+          
+      }
+      .vinput{
+          width: 93%;
+      }
+      .mar{
+          margin-bottom: 100px;
+      }
+      .col1{
+          background-color:blue  ;
+          border: 1px solid blue;
+          height: 600px;
+          width: 25% !important;
+      }.col2{
+          background-color:white  ;
+          border: 1px solid white;
+          height: 600px;
+          width: 40% !important;
+      }
+      .circle{
+          height: 100px;
+          width: 100px;
+          border-radius: 50%;
+          margin-top: 27px;
+          margin-left: -1%;
+          
+      
+      }
+      .carrd{
+          background-color: white;
+          height: 380px;
+          margin-top: 50px;
+          border-radius: 20px;
+      }
+      .carrds{
+          background-color: aliceblue;
+      height: 137px;
+      margin-top: 22px;
+      border-radius: 20px;
+      width: 90%;
+      margin-left: 4%;
+      }
+      .mybtn
+      {
+          width: 60%;
+      height: 100px;
+      margin-left: 18%;
+      margin-top: 59px;
+      border-radius: 20px;
+      background-color: blue;
+      transition: all 0.3s ease-in;
+      font-size: 12px;
+      }
+      .mybtn:hover
+      {
+          width: 30%;
+      height: 100px;
+      margin-left: 18%;
+      margin-top: 59px;
+      border-radius: 20px;
+      background-color: rgb(215, 215, 226);
+      }
+      .macol{
+          width: 4.5%;
+      }
+      .cure{
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 20px;
+          color: #dfd8d8;
+        
+      }
+      .bal {
+        font-size: 25px;
+        margin-top: -52px;
+        padding: 28px;
+      }
+      .mst{
+          margin-bottom: 40px;
+      }
+      .atm {
+          margin-top: -78px;
+          margin-left: 299px;
+        }
+        .rowcol{
+          background-color: rgb(229, 229, 236);
+        }
+        .dc{
+          
+              height: 29px;
+              width: 54px;
+              border-radius: 47%;
+              background-color: red;
+              border: 1px solid red;
+       }
+      .dd{
+          height: 29px;
+          width: 54px;
+          border-radius: 47%;
+          background-color: green;
+          border: 1px solid green;
+      
+                
+      }
+}
+
+@media(min-width:768px) and (max-width:1380px){
+    .logform{
+        border: 3px solid aliceblue; 
+        background-color: aliceblue;
+        width: 40% !important;
+        
+      
+      }
+      .regform{
+        border: 3px solid aliceblue; 
+        background-color: aliceblue;
+        width: 80% !important;
+        
+      
+      }
+      .sbody{
+      background-image: linear-gradient(to right,skyblue,rgb(174, 174, 216));}
+      .textstyle{
+          color: blue;
+          font-size: 15px;
+      }
+      .subbtn{
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom:25px ;
+          width: 200px;
+          color: white;
+      }
+      .logbtn {
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom: 25px;
+          width: 170px;
+          color: white;
+        }
+      .subbtn:hover{
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom:25px ;
+          width: 400px;
+          color: white;
+      }
+      /* registration */
+      .textstyle{
+          color: blue;
+          font-size:23px;
+      }
+      .cus-det{
+          padding-left: 309px;
+          font-weight: bold;
+      }
+      .names{
+          margin-left: 340px; 
+          
+      }
+      .vinput{
+          width: 93%;
+      }
+      .mar{
+          margin-bottom: 100px;
+      }
+      .col1{
+          background-color:blue  ;
+          border: 1px solid blue;
+          height: 600px;
+      }.col2{
+          background-color:white  ;
+          border: 1px solid white;
+          height: 600px;
+      }
+      .circle{
+          height: 100px;
+          width: 100px;
+          border-radius: 50%;
+          margin-top: 27px;
+          margin-left: 22%;
+          
+      
+      }
+      .carrd{
+          background-color: white;
+          height: 380px;
+          margin-top: 50px;
+          border-radius: 20px;
+      }
+      .carrds{
+          background-color: aliceblue;
+      height: 137px;
+      margin-top: 22px;
+      border-radius: 20px;
+      width: 90%;
+      margin-left: 4%;
+      }
+      .mybtn
+      {
+          width: 60%;
+      height: 100px;
+      margin-left: 18%;
+      margin-top: 59px;
+      border-radius: 20px;
+      background-color: blue;
+      transition: all 0.3s ease-in;
+      }
+      .mybtn:hover
+      {
+          width: 30%;
+      height: 100px;
+      margin-left: 18%;
+      margin-top: 59px;
+      border-radius: 20px;
+      background-color: rgb(215, 215, 226);
+      }
+      .macol{
+          width: 4.5%;
+      }
+      .cure{
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 20px;
+          color: #dfd8d8;
+        
+      }
+      .bal{
+        font-size: 30px;
+        margin-top: -63px;
+        padding: 54px;
+      }
+      .mst{
+          margin-bottom: 40px;
+      }
+      .atm {
+          margin-top: -78px;
+          margin-left: 299px;
+        }
+        .rowcol{
+          background-color: rgb(229, 229, 236);
+        }
+        .dc{
+          
+              height: 29px;
+              width: 54px;
+              border-radius: 47%;
+              background-color: red;
+              border: 1px solid red;
+       }
+      .dd{
+          height: 29px;
+          width: 54px;
+          border-radius: 47%;
+          background-color: green;
+          border: 1px solid green;
+      
+                
+      }
+}
+@media(min-width:1381px){
+    .logform{
+        border: 3px solid aliceblue; 
+        background-color: aliceblue;
+        width: 50% !important;
+        
+      
+      }
+      .regform{
+        border: 3px solid aliceblue; 
+        background-color: aliceblue;
+        width: 80% !important;
+        
+      
+      }
+      .sbody{
+      background-image: linear-gradient(to right,skyblue,rgb(174, 174, 216));}
+      .textstyle{
+          color: blue;
+          font-size: 15px;
+      }
+      .subbtn{
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom:25px ;
+          width: 400px;
+          color: white;
+      }
+      .logbtn {
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom: 25px;
+          width: 248px;
+          color: white;
+        }
+      .subbtn:hover{
+          border: 1px solid blue;
+          background-color: blue;
+          margin-top: 25px !important;
+          margin-bottom:25px ;
+          width: 400px;
+          color: white;
+      }
+      /* registration */
+      .textstyle{
+          color: blue;
+          font-size:23px;
+      }
+      .cus-det{
+          padding-left: 309px;
+          font-weight: bold;
+      }
+      .names{
+          margin-left: 340px; 
+          
+      }
+      .vinput{
+          width: 93%;
+      }
+      .mar{
+          margin-bottom: 100px;
+      }
+      .col1{
+          background-color:blue  ;
+          border: 1px solid blue;
+          height: 600px;
+      }.col2{
+          background-color:white  ;
+          border: 1px solid white;
+          height: 600px;
+      }
+      .circle{
+          height: 100px;
+          width: 100px;
+          border-radius: 50%;
+          margin-top: 27px;
+          margin-left: 22%;
+          
+      
+      }
+      .carrd{
+          background-color: white;
+          height: 380px;
+          margin-top: 50px;
+          border-radius: 20px;
+      }
+      .carrds{
+          background-color: aliceblue;
+      height: 137px;
+      margin-top: 22px;
+      border-radius: 20px;
+      width: 90%;
+      margin-left: 4%;
+      }
+      .mybtn
+      {
+          width: 60%;
+      height: 100px;
+      margin-left: 18%;
+      margin-top: 59px;
+      border-radius: 20px;
+      background-color: blue;
+      transition: all 0.3s ease-in;
+      }
+      .mybtn:hover
+      {
+          width: 30%;
+      height: 100px;
+      margin-left: 18%;
+      margin-top: 59px;
+      border-radius: 20px;
+      background-color: rgb(215, 215, 226);
+      }
+      .macol{
+          width: 4.5%;
+      }
+      .cure{
+          font-size: 20px;
+          margin-top: 20px;
+          margin-left: 20px;
+          color: #dfd8d8;
+        
+      }
+      .bal{
+        font-size: 34px;
+        margin-top: -199px;
+        padding: 197px;
+      }
+      .mst{
+          margin-bottom: 40px;
+      }
+      .atm {
+          margin-top: -78px;
+          margin-left: 299px;
+        }
+        .rowcol{
+          background-color: rgb(229, 229, 236);
+        }
+        .dc{
+          
+              height: 29px;
+              width: 54px;
+              border-radius: 47%;
+              background-color: red;
+              border: 1px solid red;
+       }
+      .dd{
+          height: 29px;
+          width: 54px;
+          border-radius: 47%;
+          background-color: green;
+          border: 1px solid green;
+      
+                
+      }
+}
+
+.myusername{
+    padding-top: 40px;
+}
+.logout {
+    height: 41px;
+    width: 56px;
+    border: solid white 1px !important;
+    background-color: white !important;
+    color: black !important;
+    margin: 23px;
+    padding: 5px;
+}
